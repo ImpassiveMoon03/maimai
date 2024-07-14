@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="The Terms of Service and Privacy Policy for MaiMai!">
+        <meta name="author" content="Robert Offord">
+        <title>MaiMai! ToS || Privacy</title>
+        <link rel="icon" type="image/png" href="./icon.png">
+        <style>
+            * {
+                background-color: #FFD1DC;
+                margin: 0;
+                padding: 0;
+            }
+
+            #terms {
+                margin-top: 100px;
+                height: 50px;
+                border-radius: 25px;
+                cursor: pointer;
+                width: 70%;
+                margin-left: 15%;
+                border: 1px solid white;
+                color: violet;
+
+                text-align: center;
+                font-size: 40px;
+            }
+            #privacy {
+                margin-top: 100px;
+                height: 50px;
+                border-radius: 25px;
+                cursor: pointer;
+                width: 70%;
+                margin-left: 15%;
+                border: 1px solid white;
+                color: violet;
+
+                text-align: center;
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="terms" onclick="terms()">Terms of Service</div>
+        <div id="privacy" onclick="privacy()">Privacy Policy</div>
+
+        <script>
+            function terms(){
+                document.location = "./terms.html"
+            }
+
+            function privacy(){
+                document.location = "./privacy.html"
+            }
+        </script>
+    </body>
+</html>
